@@ -1,5 +1,7 @@
 This is code developed alongside [this video series](https://www.youtube.com/watch?v=9Uppe9NuIKU&index=1&list=PLWWyzc5ehM92Sp4T1NE1-_lELthtR1Wgz)
 
+(codingblocks/Marvel-Collection-App github repo](https://github.com/codingblocks/Marvel-Collection-App)
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

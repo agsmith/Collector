@@ -1,332 +1,60 @@
-const comics = {
+export default () => ({
   "code": 200,
   "status": "Ok",
   "copyright": "© 2018 MARVEL",
   "attributionText": "Data provided by Marvel. © 2018 MARVEL",
   "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2018 MARVEL</a>",
-  "etag": "5a99642f909455a214d041cb0fd6ea2ab4060821",
+  "etag": "547f5ca6b4ffec7e12acad41845d4ed6765ab87b",
   "data": {
     "offset": 0,
     "limit": 10,
-    "total": 41405,
+    "total": 409,
     "count": 10,
     "results": [
       {
-        "id": 21484,
-        "digitalId": 0,
-        "title": "Ultimate X-Men (Spanish Language Edition) (2000) #7",
-        "issueNumber": 7,
+        "id": 49248,
+        "digitalId": 34645,
+        "title": "Wolverine (2014) #12",
+        "issueNumber": 12,
         "variantDescription": "",
-        "description": null,
-        "modified": "-0001-11-30T00:00:00-0500",
+        "description": "ONE MONTH TO DIE! A DOUBLE-SIZED SERIES FINALE!\n- Looks like Sabretooth is ready for his final showdown with Logan and he sure picked a meaningful venue.\n- Didn't we just see a fight in a shopping mall that seriously scarred Logan?\n- Oh, right. That whole \"messing with Wolverine\" thing.",
+        "modified": "2014-09-09T12:19:43-0400",
         "isbn": "",
-        "upc": "",
+        "upc": "759606080091001211",
         "diamondCode": "",
         "ean": "",
         "issn": "",
         "format": "Comic",
-        "pageCount": 36,
-        "textObjects": [],
-        "resourceURI": "http://gateway.marvel.com/v1/public/comics/21484",
-        "urls": [
-          {
-            "type": "detail",
-            "url": "http://marvel.com/comics/issue/21484/ultimate_x-men_spanish_language_edition_2000_7?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
-          }
-        ],
-        "series": {
-          "resourceURI": "http://gateway.marvel.com/v1/public/series/5106",
-          "name": "Ultimate X-Men (Spanish Language Edition) (2000 - 2009)"
-        },
-        "variants": [],
-        "collections": [],
-        "collectedIssues": [],
-        "dates": [
-          {
-            "type": "onsaleDate",
-            "date": "2029-12-31T00:00:00-0500"
-          },
-          {
-            "type": "focDate",
-            "date": "-0001-11-30T00:00:00-0500"
-          }
-        ],
-        "prices": [
-          {
-            "type": "printPrice",
-            "price": 0
-          }
-        ],
-        "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-          "extension": "jpg"
-        },
-        "images": [],
-        "creators": {
-          "available": 0,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/21484/creators",
-          "items": [],
-          "returned": 0
-        },
-        "characters": {
-          "available": 1,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/21484/characters",
-          "items": [
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011109",
-              "name": "X-Men (Ultimate)"
-            }
-          ],
-          "returned": 1
-        },
-        "stories": {
-          "available": 2,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/21484/stories",
-          "items": [
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/48996",
-              "name": "Cover #48996",
-              "type": "cover"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/48997",
-              "name": "Interior #48997",
-              "type": "interiorStory"
-            }
-          ],
-          "returned": 2
-        },
-        "events": {
-          "available": 0,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/21484/events",
-          "items": [],
-          "returned": 0
-        }
-      },
-      {
-        "id": 22098,
-        "digitalId": 10098,
-        "title": "Marvel's Greatest Heroes Sampler (2008) #1",
-        "issueNumber": 1,
-        "variantDescription": "",
-        "description": null,
-        "modified": "-0001-11-30T00:00:00-0500",
-        "isbn": "",
-        "upc": "",
-        "diamondCode": "",
-        "ean": "",
-        "issn": "",
-        "format": "Comic",
-        "pageCount": 0,
-        "textObjects": [],
-        "resourceURI": "http://gateway.marvel.com/v1/public/comics/22098",
-        "urls": [
-          {
-            "type": "detail",
-            "url": "http://marvel.com/comics/issue/22098/marvels_greatest_heroes_sampler_2008_1?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
-          },
-          {
-            "type": "reader",
-            "url": "http://marvel.com/digitalcomics/view.htm?iid=10098&utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
-          }
-        ],
-        "series": {
-          "resourceURI": "http://gateway.marvel.com/v1/public/series/5847",
-          "name": "Marvel's Greatest Heroes Sampler (2008)"
-        },
-        "variants": [],
-        "collections": [],
-        "collectedIssues": [],
-        "dates": [
-          {
-            "type": "onsaleDate",
-            "date": "2029-12-31T00:00:00-0500"
-          },
-          {
-            "type": "focDate",
-            "date": "-0001-11-30T00:00:00-0500"
-          },
-          {
-            "type": "unlimitedDate",
-            "date": "2008-07-09T00:00:00-0400"
-          }
-        ],
-        "prices": [
-          {
-            "type": "printPrice",
-            "price": 0
-          }
-        ],
-        "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/40/4bb6ecf441158",
-          "extension": "jpg"
-        },
-        "images": [
-          {
-            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/40/4bb6ecf441158",
-            "extension": "jpg"
-          }
-        ],
-        "creators": {
-          "available": 0,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/22098/creators",
-          "items": [],
-          "returned": 0
-        },
-        "characters": {
-          "available": 0,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/22098/characters",
-          "items": [],
-          "returned": 0
-        },
-        "stories": {
-          "available": 2,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/22098/stories",
-          "items": [
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/48844",
-              "name": "Cover #48844",
-              "type": "cover"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/48845",
-              "name": "Interior #48845",
-              "type": "interiorStory"
-            }
-          ],
-          "returned": 2
-        },
-        "events": {
-          "available": 0,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/22098/events",
-          "items": [],
-          "returned": 0
-        }
-      },
-      {
-        "id": 21473,
-        "digitalId": 0,
-        "title": "Ultimate Spider-Man (Spanish Language Edition) (2000) #9",
-        "issueNumber": 9,
-        "variantDescription": "",
-        "description": null,
-        "modified": "-0001-11-30T00:00:00-0500",
-        "isbn": "",
-        "upc": "",
-        "diamondCode": "",
-        "ean": "",
-        "issn": "",
-        "format": "Comic",
-        "pageCount": 0,
-        "textObjects": [],
-        "resourceURI": "http://gateway.marvel.com/v1/public/comics/21473",
-        "urls": [
-          {
-            "type": "detail",
-            "url": "http://marvel.com/comics/issue/21473/ultimate_spider-man_spanish_language_edition_2000_9?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
-          }
-        ],
-        "series": {
-          "resourceURI": "http://gateway.marvel.com/v1/public/series/5105",
-          "name": "Ultimate Spider-Man (Spanish Language Edition) (2000 - 2001)"
-        },
-        "variants": [],
-        "collections": [],
-        "collectedIssues": [],
-        "dates": [
-          {
-            "type": "onsaleDate",
-            "date": "2029-12-31T00:00:00-0500"
-          },
-          {
-            "type": "focDate",
-            "date": "-0001-11-30T00:00:00-0500"
-          }
-        ],
-        "prices": [
-          {
-            "type": "printPrice",
-            "price": 2.25
-          }
-        ],
-        "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-          "extension": "jpg"
-        },
-        "images": [],
-        "creators": {
-          "available": 0,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/21473/creators",
-          "items": [],
-          "returned": 0
-        },
-        "characters": {
-          "available": 1,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/21473/characters",
-          "items": [
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011010",
-              "name": "Spider-Man (Ultimate)"
-            }
-          ],
-          "returned": 1
-        },
-        "stories": {
-          "available": 2,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/21473/stories",
-          "items": [
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/48974",
-              "name": "Cover #48974",
-              "type": "cover"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/48975",
-              "name": "Interior #48975",
-              "type": "interiorStory"
-            }
-          ],
-          "returned": 2
-        },
-        "events": {
-          "available": 0,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/21473/events",
-          "items": [],
-          "returned": 0
-        }
-      },
-      {
-        "id": 3627,
-        "digitalId": 0,
-        "title": "Storm (2006)",
-        "issueNumber": 0,
-        "variantDescription": "",
-        "description": "The epic, untold love story between Marvel's two pre-eminent Black super heroes -- Storm and the Black Panther -- is finally told, as only New York Times best-selling author Eric Jerome Dickey can do it!  An orphaned street urchin, living by her wits on the unforgiving plains of Africa as she struggles to harness her slowly-developing mutant powers...A warrior Prince, embarking on his rite of passage as he ponders the great responsibility in his future...And a crew of ruthless mercenaries who'll stop at nothing to capture an elusive creature of legend -- the fabled wind-rider.  What sparks occur when their paths intersect?  Don't miss out on this story, True Believer, as it builds to a July Event that will shake the entire Marvel Universe.\r<br>\r<br>32 PGS./T+ SUGGESTED FOR TEENS AND UP ...$2.99\r<br>",
-        "modified": "2015-01-29T20:04:55-0500",
-        "isbn": "",
-        "upc": "",
-        "diamondCode": "",
-        "ean": "",
-        "issn": "",
-        "format": "Comic",
-        "pageCount": 0,
+        "pageCount": 64,
         "textObjects": [
           {
             "type": "issue_solicit_text",
             "language": "en-us",
-            "text": "The epic, untold love story between Marvel's two pre-eminent Black super heroes -- Storm and the Black Panther -- is finally told, as only New York Times best-selling author Eric Jerome Dickey can do it!  An orphaned street urchin, living by her wits on the unforgiving plains of Africa as she struggles to harness her slowly-developing mutant powers...A warrior Prince, embarking on his rite of passage as he ponders the great responsibility in his future...And a crew of ruthless mercenaries who'll stop at nothing to capture an elusive creature of legend -- the fabled wind-rider.  What sparks occur when their paths intersect?  Don't miss out on this story, True Believer, as it builds to a July Event that will shake the entire Marvel Universe.\r<br>\r<br>32 PGS./T+ SUGGESTED FOR TEENS AND UP ...$2.99\r<br>"
+            "text": "ONE MONTH TO DIE! A DOUBLE-SIZED SERIES FINALE!\n- Looks like Sabretooth is ready for his final showdown with Logan and he sure picked a meaningful venue.\n- Didn't we just see a fight in a shopping mall that seriously scarred Logan?\n- Oh, right. That whole \"messing with Wolverine\" thing."
           }
         ],
-        "resourceURI": "http://gateway.marvel.com/v1/public/comics/3627",
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/49248",
         "urls": [
           {
             "type": "detail",
-            "url": "http://marvel.com/comics/issue/3627/storm_2006?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+            "url": "http://marvel.com/comics/issue/49248/wolverine_2014_12?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Wolverine-12/digital-comic/34645?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=34645&utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/34645?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
           }
         ],
         "series": {
-          "resourceURI": "http://gateway.marvel.com/v1/public/series/357",
-          "name": "Storm (2006)"
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/18517",
+          "name": "Wolverine (2014 - Present)"
         },
         "variants": [],
         "collections": [],
@@ -334,74 +62,641 @@ const comics = {
         "dates": [
           {
             "type": "onsaleDate",
-            "date": "2029-12-31T00:00:00-0500"
+            "date": "2014-08-27T00:00:00-0400"
           },
           {
             "type": "focDate",
-            "date": "-0001-11-30T00:00:00-0500"
+            "date": "2014-08-04T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2015-02-23T00:00:00-0500"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2014-08-27T00:00:00-0400"
           }
         ],
         "prices": [
           {
             "type": "printPrice",
-            "price": 0
+            "price": 5.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 5.99
           }
         ],
         "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/80/4bc5fe7a308d7",
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/f0/53fb87c9a2d75",
           "extension": "jpg"
         },
         "images": [
           {
-            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/80/4bc5fe7a308d7",
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/f0/53fb87c9a2d75",
             "extension": "jpg"
           }
         ],
         "creators": {
           "available": 3,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/3627/creators",
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49248/creators",
           "items": [
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/370",
-              "name": "Eric Jerome Dickey",
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1092",
+              "name": "Paul Cornell",
               "role": "writer"
             },
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/371",
-              "name": "David Hine",
-              "role": "penciller"
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/9484",
+              "name": "Steve Mcniven",
+              "role": "penciller (cover)"
             },
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/243",
-              "name": "Mike Mayhew",
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11976",
+              "name": "Peter M. Woods",
+              "role": "artist"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49248/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49248/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/110581",
+              "name": "cover from Wolverine (2014) #12",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/110582",
+              "name": "story from Wolverine (2014) #12",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49248/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 49247,
+        "digitalId": 34577,
+        "title": "Wolverine (2014) #11",
+        "issueNumber": 11,
+        "variantDescription": "",
+        "description": "ONE MONTH TO DIE!\n- With the fates of two human beings placed in her hands, Pinch is faced with a decision that may haunt her for the rest of her life.\n- That is, unless Wolverine and his S.H.I.E.L.D. cavalry can reach her in time.\n- Classic Sabretooth, still finds time to mess with Logan, even while he's busy trying to remake the world in his image.",
+        "modified": "2014-09-09T10:10:54-0400",
+        "isbn": "",
+        "upc": "759606080091001111",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "ONE MONTH TO DIE!\n- With the fates of two human beings placed in her hands, Pinch is faced with a decision that may haunt her for the rest of her life.\n- That is, unless Wolverine and his S.H.I.E.L.D. cavalry can reach her in time.\n- Classic Sabretooth, still finds time to mess with Logan, even while he's busy trying to remake the world in his image."
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/49247",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/49247/wolverine_2014_11?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Wolverine-11/digital-comic/34577?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=34577&utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/34577?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/18517",
+          "name": "Wolverine (2014 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2014-08-13T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2014-07-21T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2015-02-09T00:00:00-0500"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2014-08-13T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/5/e0/53e3ce626b203",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/5/e0/53e3ce626b203",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49247/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1092",
+              "name": "Paul Cornell",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/9484",
+              "name": "Steve Mcniven",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11976",
+              "name": "Peter M. Woods",
+              "role": "artist"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49247/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49247/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/110579",
+              "name": "cover from Wolverine (2014) #11",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/110580",
+              "name": "story from Wolverine (2014) #11",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49247/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 49246,
+        "digitalId": 34154,
+        "title": "Wolverine (2014) #10",
+        "issueNumber": 10,
+        "variantDescription": "",
+        "description": "- It's the beginning of the end for Wolverine!\n- Logan comes clean to his old friends as Sabretooth marks Wolverine's new love Pinch for death!\n- Pete Woods (Detective Comics) joins Paul Cornell as Logan enters his most dire hour!",
+        "modified": "2014-07-25T16:29:16-0400",
+        "isbn": "",
+        "upc": "759606080091001011",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "- It's the beginning of the end for Wolverine!\n- Logan comes clean to his old friends as Sabretooth marks Wolverine's new love Pinch for death!\n- Pete Woods (Detective Comics) joins Paul Cornell as Logan enters his most dire hour!"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/49246",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/49246/wolverine_2014_10?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Wolverine-10/digital-comic/34154?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=34154&utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/34154?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/18517",
+          "name": "Wolverine (2014 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2014-07-09T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2014-06-16T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2015-01-12T00:00:00-0500"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2014-07-09T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/03/53b3126604e49",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/03/53b3126604e49",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49246/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1092",
+              "name": "Paul Cornell",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/9484",
+              "name": "Steve Mcniven",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/826",
+              "name": "Pete Woods",
+              "role": "artist"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49246/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49246/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/110577",
+              "name": "cover from Wolverine (2014) #10",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/110578",
+              "name": "story from Wolverine (2014) #10",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49246/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 49245,
+        "digitalId": 33900,
+        "title": "Wolverine (2014) #9",
+        "issueNumber": 9,
+        "variantDescription": "",
+        "description": "- Stranded in Japan, Logan confronts his future...and it ain't a bright one.\n- It's all lead up to this - the next chapter of Wolverine's life begins now!\n- Three Months to Die - The title says it all!",
+        "modified": "2014-07-16T16:23:36-0400",
+        "isbn": "",
+        "upc": "759606080091000911",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "- Stranded in Japan, Logan confronts his future...and it ain't a bright one.\n- It's all lead up to this - the next chapter of Wolverine's life begins now!\n- Three Months to Die - The title says it all!"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/49245",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/49245/wolverine_2014_9?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Wolverine-9/digital-comic/33900?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=33900&utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/33900?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/18517",
+          "name": "Wolverine (2014 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2014-06-25T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2014-06-02T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2014-12-29T00:00:00-0500"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2014-06-25T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/30/539f569a18e7a",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/7/30/539f569a18e7a",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/10/53288b4ba8113",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49245/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1092",
+              "name": "Paul Cornell",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/9484",
+              "name": "Steve Mcniven",
+              "role": "penciller (cover)"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12369",
+              "name": "Gerardo Sandoval",
+              "role": "artist"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49245/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49245/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/110575",
+              "name": "cover from Wolverine (2014) #9",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/110576",
+              "name": "story from Wolverine (2014) #9",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49245/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 49244,
+        "digitalId": 33857,
+        "title": "Wolverine (2014) #8",
+        "issueNumber": 8,
+        "variantDescription": "",
+        "description": "- Logan, Iron Fist, Shang Chi vs. an army of deadly ninja.\n- Three Months to Die - The title says it all!",
+        "modified": "2014-07-16T14:51:42-0400",
+        "isbn": "",
+        "upc": "759606080091000811",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "- Logan, Iron Fist, Shang Chi vs. an army of deadly ninja.\n- Three Months to Die - The title says it all!"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/49244",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/49244/wolverine_2014_8?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Wolverine-8/digital-comic/33857?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=33857&utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/33857?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/18517",
+          "name": "Wolverine (2014 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2014-06-11T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2014-05-19T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2014-12-15T00:00:00-0500"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2014-06-11T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/20/5390c59d6b201",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/20/5390c59d6b201",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/d/c0/53288a8264543",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49244/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/11575",
+              "name": "Kris Anka",
+              "role": "artist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1092",
+              "name": "Paul Cornell",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/9484",
+              "name": "Steve Mcniven",
               "role": "penciller (cover)"
             }
           ],
           "returned": 3
         },
         "characters": {
-          "available": 1,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/3627/characters",
-          "items": [
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009629",
-              "name": "Storm"
-            }
-          ],
-          "returned": 1
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49244/characters",
+          "items": [],
+          "returned": 0
         },
         "stories": {
           "available": 2,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/3627/stories",
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49244/stories",
           "items": [
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/496",
-              "name": "Cover #496",
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/110573",
+              "name": "cover from Wolverine (2014) #8",
               "type": "cover"
             },
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/497",
-              "name": "Interior #497",
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/110574",
+              "name": "story from Wolverine (2014) #8",
               "type": "interiorStory"
             }
           ],
@@ -409,37 +704,55 @@ const comics = {
         },
         "events": {
           "available": 0,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/3627/events",
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49244/events",
           "items": [],
           "returned": 0
         }
       },
       {
-        "id": 16238,
-        "digitalId": 0,
-        "title": "Cap Transport (2005) #18",
-        "issueNumber": 18,
+        "id": 49243,
+        "digitalId": 33952,
+        "title": "Wolverine (2014) #7",
+        "issueNumber": 7,
         "variantDescription": "",
-        "description": null,
-        "modified": "-0001-11-30T00:00:00-0500",
+        "description": "- As his plan to take down Sabretooth takes shape, Wolverine goes undercover in Madripoor - but he's not the only one with his eyes on Sabretooth's empire - what do PETE WISDOM & MI-13 have to do with it?\n- Paul Cornell (WOLVERINE: KILLABLE) and Gerardo Sandoval (CABLE & X-FORCE) bring you a two part epic that'll push the mortal Wolverine to his limits!",
+        "modified": "2014-07-14T14:56:32-0400",
         "isbn": "",
-        "upc": "",
+        "upc": "759606080091000711",
         "diamondCode": "",
         "ean": "",
         "issn": "",
         "format": "Comic",
-        "pageCount": 0,
-        "textObjects": [],
-        "resourceURI": "http://gateway.marvel.com/v1/public/comics/16238",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "- As his plan to take down Sabretooth takes shape, Wolverine goes undercover in Madripoor - but he's not the only one with his eyes on Sabretooth's empire - what do PETE WISDOM & MI-13 have to do with it?\n- Paul Cornell (WOLVERINE: KILLABLE) and Gerardo Sandoval (CABLE & X-FORCE) bring you a two part epic that'll push the mortal Wolverine to his limits!"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/49243",
         "urls": [
           {
             "type": "detail",
-            "url": "http://marvel.com/comics/issue/16238/cap_transport_2005_18?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+            "url": "http://marvel.com/comics/issue/49243/wolverine_2014_7?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Wolverine-7/digital-comic/33952?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=33952&utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/33952?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
           }
         ],
         "series": {
-          "resourceURI": "http://gateway.marvel.com/v1/public/series/2722",
-          "name": "Cap Transport (2005 - 2006)"
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/18517",
+          "name": "Wolverine (2014 - Present)"
         },
         "variants": [],
         "collections": [],
@@ -447,101 +760,81 @@ const comics = {
         "dates": [
           {
             "type": "onsaleDate",
-            "date": "2029-12-31T00:00:00-0500"
+            "date": "2014-05-28T00:00:00-0400"
           },
           {
             "type": "focDate",
-            "date": "-0001-11-30T00:00:00-0500"
+            "date": "2014-05-14T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2014-11-24T00:00:00-0500"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2014-05-28T00:00:00-0400"
           }
         ],
         "prices": [
           {
             "type": "printPrice",
-            "price": 0
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
           }
         ],
         "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/50/537a4e1dee570",
           "extension": "jpg"
         },
-        "images": [],
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/50/537a4e1dee570",
+            "extension": "jpg"
+          }
+        ],
         "creators": {
-          "available": 7,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/16238/creators",
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49243/creators",
           "items": [
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
-              "name": "Tom Brevoort",
-              "role": "editor"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5248",
-              "name": "Molly Lazer",
-              "role": "editor"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/3635",
-              "name": "Joe Quesada",
-              "role": "editor"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/367",
-              "name": "Ed Brubaker",
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1092",
+              "name": "Paul Cornell",
               "role": "writer"
             },
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
-              "name": "Joe Caramagna",
-              "role": "letterer"
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12369",
+              "name": "Gerardo Sandoval",
+              "role": "artist"
             },
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8504",
-              "name": "Frank D'ARMATA",
-              "role": "colorist"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/374",
-              "name": "Steve Epting",
-              "role": "penciler"
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1156",
+              "name": "Ryan Stegman",
+              "role": "penciller (cover)"
             }
           ],
-          "returned": 7
+          "returned": 3
         },
         "characters": {
-          "available": 4,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/16238/characters",
-          "items": [
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
-              "name": "Captain America"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009252",
-              "name": "Crossbones"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009535",
-              "name": "Red Skull"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010898",
-              "name": "Sin"
-            }
-          ],
-          "returned": 4
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49243/characters",
+          "items": [],
+          "returned": 0
         },
         "stories": {
           "available": 2,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/16238/stories",
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49243/stories",
           "items": [
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/34002",
-              "name": "Captain America",
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/110571",
+              "name": "cover from Wolverine (2014) #7",
               "type": "cover"
             },
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/34003",
-              "name": "Twenty-First Century Blitz Part One",
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/110572",
+              "name": "story from Wolverine (2014) #7",
               "type": "interiorStory"
             }
           ],
@@ -549,37 +842,55 @@ const comics = {
         },
         "events": {
           "available": 0,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/16238/events",
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49243/events",
           "items": [],
           "returned": 0
         }
       },
       {
-        "id": 16247,
-        "digitalId": 0,
-        "title": "Cap Transport (2005) #8",
-        "issueNumber": 8,
+        "id": 49242,
+        "digitalId": 33893,
+        "title": "Wolverine (2014) #6",
+        "issueNumber": 6,
         "variantDescription": "",
-        "description": null,
-        "modified": "-0001-11-30T00:00:00-0500",
+        "description": "- As his plan to take down Sabretooth takes shape, Wolverine goes undercover in Madripoor - but he's not the only one with his eyes on Sabretooth's empire - what do PETE WISDOM & MI-13 have to do with it?\n- Paul Cornell (WOLVERINE: KILLABLE) and Gerardo Sandoval (CABLE & X-FORCE) bring you a two part epic that'll push the mortal Wolverine to his limits!",
+        "modified": "2014-07-14T13:44:25-0400",
         "isbn": "",
-        "upc": "",
+        "upc": "759606080091000611",
         "diamondCode": "",
         "ean": "",
         "issn": "",
         "format": "Comic",
-        "pageCount": 0,
-        "textObjects": [],
-        "resourceURI": "http://gateway.marvel.com/v1/public/comics/16247",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "- As his plan to take down Sabretooth takes shape, Wolverine goes undercover in Madripoor - but he's not the only one with his eyes on Sabretooth's empire - what do PETE WISDOM & MI-13 have to do with it?\n- Paul Cornell (WOLVERINE: KILLABLE) and Gerardo Sandoval (CABLE & X-FORCE) bring you a two part epic that'll push the mortal Wolverine to his limits!"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/49242",
         "urls": [
           {
             "type": "detail",
-            "url": "http://marvel.com/comics/issue/16247/cap_transport_2005_8?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+            "url": "http://marvel.com/comics/issue/49242/wolverine_2014_6?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Wolverine-6/digital-comic/33893?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=33893&utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/33893?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
           }
         ],
         "series": {
-          "resourceURI": "http://gateway.marvel.com/v1/public/series/2722",
-          "name": "Cap Transport (2005 - 2006)"
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/18517",
+          "name": "Wolverine (2014 - Present)"
         },
         "variants": [],
         "collections": [],
@@ -587,195 +898,421 @@ const comics = {
         "dates": [
           {
             "type": "onsaleDate",
-            "date": "2029-12-31T00:00:00-0500"
+            "date": "2014-05-14T00:00:00-0400"
           },
           {
             "type": "focDate",
-            "date": "-0001-11-30T00:00:00-0500"
+            "date": "2014-04-30T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2014-11-10T00:00:00-0500"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2014-05-14T00:00:00-0400"
           }
         ],
         "prices": [
           {
             "type": "printPrice",
-            "price": 0
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
           }
         ],
         "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/b0/536cdce3d98a4",
           "extension": "jpg"
         },
-        "images": [],
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/b0/536cdce3d98a4",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/b0/52f3b58a49544",
+            "extension": "jpg"
+          }
+        ],
         "creators": {
-          "available": 8,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/16247/creators",
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49242/creators",
           "items": [
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
-              "name": "Tom Brevoort",
-              "role": "editor"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/5248",
-              "name": "Molly Lazer",
-              "role": "editor"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/4371",
-              "name": "Andy Schmidt",
-              "role": "editor"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/367",
-              "name": "Ed Brubaker",
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1092",
+              "name": "Paul Cornell",
               "role": "writer"
             },
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8504",
-              "name": "Frank D'ARMATA",
-              "role": "colorist"
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12369",
+              "name": "Gerardo Sandoval",
+              "role": "artist"
             },
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/452",
-              "name": "Chris Eliopoulos",
-              "role": "letterer"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/374",
-              "name": "Steve Epting",
-              "role": "penciler"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/334",
-              "name": "Joe Jusko",
-              "role": "penciler"
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1156",
+              "name": "Ryan Stegman",
+              "role": "penciller (cover)"
             }
           ],
-          "returned": 8
+          "returned": 3
         },
         "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49242/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
           "available": 2,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/16247/characters",
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49242/stories",
           "items": [
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
-              "name": "Captain America"
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/110569",
+              "name": "cover from Wolverine (2014) #6",
+              "type": "cover"
             },
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009535",
-              "name": "Red Skull"
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/110570",
+              "name": "story from Wolverine (2014) #6",
+              "type": "interiorStory"
             }
           ],
           "returned": 2
         },
-        "stories": {
-          "available": 4,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/16247/stories",
-          "items": [
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/34021",
-              "name": "[Cover A]; The Winter Soldier, Part 1",
-              "type": "cover"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/34022",
-              "name": "[Cover B ]",
-              "type": "cover"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/34023",
-              "name": "The Winter Soldier, Part 1 of 6",
-              "type": "interiorStory"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/34024",
-              "name": "Freedom of Speech",
-              "type": "letters"
-            }
-          ],
-          "returned": 4
-        },
         "events": {
           "available": 0,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/16247/events",
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49242/events",
           "items": [],
           "returned": 0
         }
       },
       {
-        "id": 59927,
-        "digitalId": 0,
-        "title": "Darth Vader (2015) #25 (Christopher Action Figure Black and White Variant)",
-        "issueNumber": 25,
-        "variantDescription": "Christopher Action Figure Black and White Variant",
-        "description": null,
-        "modified": "2016-08-25T12:39:05-0400",
+        "id": 49241,
+        "digitalId": 33555,
+        "title": "Wolverine (2014) #5",
+        "issueNumber": 5,
+        "variantDescription": "",
+        "description": "ASSASSINS ASSEMBLE!\n- Logan faces his most dire threat yet -- with no healing factor to protect him.\nGerardo Sandoval (CABLE & X-FORCE) joins the team of the All-New Marvel Now Smash hit!",
+        "modified": "2014-07-14T11:58:42-0400",
         "isbn": "",
-        "upc": "759606081241002531",
+        "upc": "759606080091000511",
         "diamondCode": "",
         "ean": "",
         "issn": "",
         "format": "Comic",
-        "pageCount": 48,
-        "textObjects": [],
-        "resourceURI": "http://gateway.marvel.com/v1/public/comics/59927",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "ASSASSINS ASSEMBLE!\n- Logan faces his most dire threat yet -- with no healing factor to protect him.\nGerardo Sandoval (CABLE & X-FORCE) joins the team of the All-New Marvel Now Smash hit!"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/49241",
         "urls": [
           {
             "type": "detail",
-            "url": "http://marvel.com/comics/issue/59927/darth_vader_2015_25_christopher_action_figure_black_and_white_variant/christopher_action_figure_black_and_white_variant?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+            "url": "http://marvel.com/comics/issue/49241/wolverine_2014_5?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Wolverine-5/digital-comic/33555?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=33555&utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/33555?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
           }
         ],
         "series": {
-          "resourceURI": "http://gateway.marvel.com/v1/public/series/19379",
-          "name": "Darth Vader (2015 - 2016)"
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/18517",
+          "name": "Wolverine (2014 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2014-04-30T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2014-04-16T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2014-10-27T00:00:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2014-04-30T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/a0/53592e58262ad",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/a0/53592e58262ad",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/50/52f3b449ddbf1",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/90/52f3b42d7b775",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/70/52f3b3f91cd7c",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49241/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1092",
+              "name": "Paul Cornell",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12369",
+              "name": "Gerardo Sandoval",
+              "role": "artist"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1156",
+              "name": "Ryan Stegman",
+              "role": "penciller (cover)"
+            }
+          ],
+          "returned": 3
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49241/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49241/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/110567",
+              "name": "cover from Wolverine (2014) #5",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/110568",
+              "name": "story from Wolverine (2014) #5",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49241/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 49240,
+        "digitalId": 33554,
+        "title": "Wolverine (2014) #4",
+        "issueNumber": 4,
+        "variantDescription": "",
+        "description": "EVIL LURKS IN THE HEART OF THE WOLF LIKE MAN!\n- Why did Logan leave the Jean Grey School? Your Answers are here!\n- Paul Cornell (WOLVERINE) and Ryan Stegman (SUPERIOR SPIDER-MAN) close off first arc of the world's most dangerous mutant!",
+        "modified": "2014-04-14T14:18:49-0400",
+        "isbn": "",
+        "upc": "759606080091000411",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "EVIL LURKS IN THE HEART OF THE WOLF LIKE MAN!\n- Why did Logan leave the Jean Grey School? Your Answers are here!\n- Paul Cornell (WOLVERINE) and Ryan Stegman (SUPERIOR SPIDER-MAN) close off first arc of the world's most dangerous mutant!"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/49240",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/49240/wolverine_2014_4?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "purchase",
+            "url": "http://comicstore.marvel.com/Wolverine-4/digital-comic/33554?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "reader",
+            "url": "http://marvel.com/digitalcomics/view.htm?iid=33554&utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          },
+          {
+            "type": "inAppLink",
+            "url": "https://applink.marvel.com/issue/33554?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/18517",
+          "name": "Wolverine (2014 - Present)"
+        },
+        "variants": [],
+        "collections": [],
+        "collectedIssues": [],
+        "dates": [
+          {
+            "type": "onsaleDate",
+            "date": "2014-04-16T00:00:00-0400"
+          },
+          {
+            "type": "focDate",
+            "date": "2014-04-02T00:00:00-0400"
+          },
+          {
+            "type": "unlimitedDate",
+            "date": "2014-10-20T00:00:00-0400"
+          },
+          {
+            "type": "digitalPurchaseDate",
+            "date": "2014-04-16T00:00:00-0400"
+          }
+        ],
+        "prices": [
+          {
+            "type": "printPrice",
+            "price": 3.99
+          },
+          {
+            "type": "digitalPurchasePrice",
+            "price": 3.99
+          }
+        ],
+        "thumbnail": {
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/10/534c25563c4ad",
+          "extension": "jpg"
+        },
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/10/534c25563c4ad",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/d0/52d83ee1c0be1",
+            "extension": "jpg"
+          }
+        ],
+        "creators": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49240/creators",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1092",
+              "name": "Paul Cornell",
+              "role": "writer"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1156",
+              "name": "Ryan Stegman",
+              "role": "penciller (cover)"
+            }
+          ],
+          "returned": 2
+        },
+        "characters": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49240/characters",
+          "items": [],
+          "returned": 0
+        },
+        "stories": {
+          "available": 2,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49240/stories",
+          "items": [
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/110565",
+              "name": "cover from Wolverine (2014) #4",
+              "type": "cover"
+            },
+            {
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/110566",
+              "name": "story from Wolverine (2014) #4",
+              "type": "interiorStory"
+            }
+          ],
+          "returned": 2
+        },
+        "events": {
+          "available": 0,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/49240/events",
+          "items": [],
+          "returned": 0
+        }
+      },
+      {
+        "id": 50068,
+        "digitalId": 0,
+        "title": "Wolverine (2014) #3 (Adams Variant)",
+        "issueNumber": 3,
+        "variantDescription": "Adams Variant",
+        "description": "<ul><li>Logan&#39;s training continues&hellip;and he&#39;s got his sights set on Sabretooth.</li><li>What could make Logan turn his back on the school and his friends?</li></ul>",
+        "modified": "2014-03-04T16:34:01-0500",
+        "isbn": "",
+        "upc": "759606080091000321",
+        "diamondCode": "",
+        "ean": "",
+        "issn": "",
+        "format": "Comic",
+        "pageCount": 32,
+        "textObjects": [
+          {
+            "type": "issue_solicit_text",
+            "language": "en-us",
+            "text": "<ul><li>Logan&#39;s training continues&hellip;and he&#39;s got his sights set on Sabretooth.</li><li>What could make Logan turn his back on the school and his friends?</li></ul>"
+          }
+        ],
+        "resourceURI": "http://gateway.marvel.com/v1/public/comics/50068",
+        "urls": [
+          {
+            "type": "detail",
+            "url": "http://marvel.com/comics/issue/50068/wolverine_2014_3_adams_variant/adams_variant?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
+          }
+        ],
+        "series": {
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/18517",
+          "name": "Wolverine (2014 - Present)"
         },
         "variants": [
           {
-            "resourceURI": "http://gateway.marvel.com/v1/public/comics/55405",
-            "name": "Darth Vader (2015) #25"
-          },
-          {
-            "resourceURI": "http://gateway.marvel.com/v1/public/comics/59935",
-            "name": "Darth Vader (2015) #25 (Chiang Variant)"
-          },
-          {
-            "resourceURI": "http://gateway.marvel.com/v1/public/comics/60282",
-            "name": "Darth Vader (2015) #25 (Quesada Sketch Variant)"
-          },
-          {
-            "resourceURI": "http://gateway.marvel.com/v1/public/comics/60350",
-            "name": "Darth Vader (2015) #25 (Quesada Variant)"
-          },
-          {
-            "resourceURI": "http://gateway.marvel.com/v1/public/comics/59574",
-            "name": "Darth Vader (2015) #25 (Christopher Action Figure Variant)"
-          },
-          {
-            "resourceURI": "http://gateway.marvel.com/v1/public/comics/59928",
-            "name": "Darth Vader (2015) #25 (Granov Variant)"
-          },
-          {
-            "resourceURI": "http://gateway.marvel.com/v1/public/comics/59929",
-            "name": "Darth Vader (2015) #25 (Larroca Variant)"
-          },
-          {
-            "resourceURI": "http://gateway.marvel.com/v1/public/comics/59930",
-            "name": "Darth Vader (2015) #25 (Michael Cho Variant)"
-          },
-          {
-            "resourceURI": "http://gateway.marvel.com/v1/public/comics/59931",
-            "name": "Darth Vader (2015) #25 (Mckelvie Variant)"
-          },
-          {
-            "resourceURI": "http://gateway.marvel.com/v1/public/comics/59932",
-            "name": "Darth Vader (2015) #25 (Shirahama Variant)"
-          },
-          {
-            "resourceURI": "http://gateway.marvel.com/v1/public/comics/59933",
-            "name": "Darth Vader (2015) #25 (Samnee Variant)"
-          },
-          {
-            "resourceURI": "http://gateway.marvel.com/v1/public/comics/59934",
-            "name": "Darth Vader (2015) #25 (Pichelli Variant)"
+            "resourceURI": "http://gateway.marvel.com/v1/public/comics/49239",
+            "name": "Wolverine (2014) #3"
           }
         ],
         "collections": [],
@@ -783,240 +1320,78 @@ const comics = {
         "dates": [
           {
             "type": "onsaleDate",
-            "date": "2029-12-31T00:00:00-0500"
+            "date": "2014-03-12T00:00:00-0400"
           },
           {
             "type": "focDate",
-            "date": "2016-08-17T00:00:00-0400"
+            "date": "2014-02-26T00:00:00-0500"
           }
         ],
         "prices": [
           {
             "type": "printPrice",
-            "price": 4.99
+            "price": 3.99
           }
         ],
         "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+          "path": "http://i.annihil.us/u/prod/marvel/i/mg/5/03/531646176eb51",
           "extension": "jpg"
         },
-        "images": [],
+        "images": [
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/5/03/531646176eb51",
+            "extension": "jpg"
+          },
+          {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/30/52f3afb96b0b6",
+            "extension": "jpg"
+          }
+        ],
         "creators": {
-          "available": 2,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/59927/creators",
+          "available": 3,
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/50068/creators",
           "items": [
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/10405",
-              "name": "John Tyler Christopher",
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/12208",
+              "name": "Arthur Adams",
               "role": "penciller (cover)"
             },
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/creators/8822",
-              "name": "Jordan White",
-              "role": "editor"
-            }
-          ],
-          "returned": 2
-        },
-        "characters": {
-          "available": 0,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/59927/characters",
-          "items": [],
-          "returned": 0
-        },
-        "stories": {
-          "available": 2,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/59927/stories",
-          "items": [
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/130360",
-              "name": "cover from Darth Vader (2015) #25 (CHRISTOPHER ACTION FIGURE BLACK AND WHITE VARIANT)",
-              "type": "cover"
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1092",
+              "name": "Paul Cornell",
+              "role": "writer"
             },
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/130361",
-              "name": "story from Darth Vader (2015) #25 (CHRISTOPHER ACTION FIGURE BLACK AND WHITE VARIANT)",
-              "type": "interiorStory"
+              "resourceURI": "http://gateway.marvel.com/v1/public/creators/1156",
+              "name": "Ryan Stegman",
+              "role": "artist"
             }
           ],
-          "returned": 2
-        },
-        "events": {
-          "available": 0,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/59927/events",
-          "items": [],
-          "returned": 0
-        }
-      },
-      {
-        "id": 50675,
-        "digitalId": 0,
-        "title": "Marvel Previews (1939)",
-        "issueNumber": 0,
-        "variantDescription": "",
-        "description": null,
-        "modified": "2014-01-08T10:28:29-0500",
-        "isbn": "",
-        "upc": "",
-        "diamondCode": "",
-        "ean": "",
-        "issn": "",
-        "format": "Digital Comic",
-        "pageCount": 32,
-        "textObjects": [],
-        "resourceURI": "http://gateway.marvel.com/v1/public/comics/50675",
-        "urls": [
-          {
-            "type": "detail",
-            "url": "http://marvel.com/comics/issue/50675/marvel_previews_1939?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
-          }
-        ],
-        "series": {
-          "resourceURI": "http://gateway.marvel.com/v1/public/series/16373",
-          "name": "Marvel Previews (1939 - Present)"
-        },
-        "variants": [
-          {
-            "resourceURI": "http://gateway.marvel.com/v1/public/comics/50226",
-            "name": "Marvel Previews (1939)"
-          },
-          {
-            "resourceURI": "http://gateway.marvel.com/v1/public/comics/50255",
-            "name": "Marvel Previews (1939)"
-          },
-          {
-            "resourceURI": "http://gateway.marvel.com/v1/public/comics/50256",
-            "name": "Marvel Previews (1939)"
-          }
-        ],
-        "collections": [],
-        "collectedIssues": [],
-        "dates": [
-          {
-            "type": "onsaleDate",
-            "date": "2029-12-31T00:00:00-0500"
-          },
-          {
-            "type": "focDate",
-            "date": "-0001-11-30T00:00:00-0500"
-          }
-        ],
-        "prices": [
-          {
-            "type": "printPrice",
-            "price": 0
-          }
-        ],
-        "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-          "extension": "jpg"
-        },
-        "images": [],
-        "creators": {
-          "available": 0,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/50675/creators",
-          "items": [],
-          "returned": 0
-        },
-        "characters": {
-          "available": 0,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/50675/characters",
-          "items": [],
-          "returned": 0
-        },
-        "stories": {
-          "available": 0,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/50675/stories",
-          "items": [],
-          "returned": 0
-        },
-        "events": {
-          "available": 0,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/50675/events",
-          "items": [],
-          "returned": 0
-        }
-      },
-      {
-        "id": 21477,
-        "digitalId": 0,
-        "title": "Ultimate X-Men (Spanish Language Edition) (2000) #11",
-        "issueNumber": 11,
-        "variantDescription": "",
-        "description": null,
-        "modified": "-0001-11-30T00:00:00-0500",
-        "isbn": "",
-        "upc": "",
-        "diamondCode": "",
-        "ean": "",
-        "issn": "",
-        "format": "Comic",
-        "pageCount": 36,
-        "textObjects": [],
-        "resourceURI": "http://gateway.marvel.com/v1/public/comics/21477",
-        "urls": [
-          {
-            "type": "detail",
-            "url": "http://marvel.com/comics/issue/21477/ultimate_x-men_spanish_language_edition_2000_11?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
-          }
-        ],
-        "series": {
-          "resourceURI": "http://gateway.marvel.com/v1/public/series/5106",
-          "name": "Ultimate X-Men (Spanish Language Edition) (2000 - 2009)"
-        },
-        "variants": [],
-        "collections": [],
-        "collectedIssues": [],
-        "dates": [
-          {
-            "type": "onsaleDate",
-            "date": "2029-12-31T00:00:00-0500"
-          },
-          {
-            "type": "focDate",
-            "date": "-0001-11-30T00:00:00-0500"
-          }
-        ],
-        "prices": [
-          {
-            "type": "printPrice",
-            "price": 0
-          }
-        ],
-        "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-          "extension": "jpg"
-        },
-        "images": [],
-        "creators": {
-          "available": 0,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/21477/creators",
-          "items": [],
-          "returned": 0
+          "returned": 3
         },
         "characters": {
           "available": 1,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/21477/characters",
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/50068/characters",
           "items": [
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011109",
-              "name": "X-Men (Ultimate)"
+              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+              "name": "Wolverine"
             }
           ],
           "returned": 1
         },
         "stories": {
           "available": 2,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/21477/stories",
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/50068/stories",
           "items": [
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/49004",
-              "name": "Cover #49004",
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/112179",
+              "name": "cover from Wolverine (2014) #3 (TBD ARTIST VARIANT)",
               "type": "cover"
             },
             {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/49005",
-              "name": "Interior #49005",
+              "resourceURI": "http://gateway.marvel.com/v1/public/stories/112180",
+              "name": "story from Wolverine (2014) #3 (TBD ARTIST VARIANT)",
               "type": "interiorStory"
             }
           ],
@@ -1024,99 +1399,7 @@ const comics = {
         },
         "events": {
           "available": 0,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/21477/events",
-          "items": [],
-          "returned": 0
-        }
-      },
-      {
-        "id": 21466,
-        "digitalId": 0,
-        "title": "Ultimate Spider-Man (Spanish Language Edition) (2000) #2",
-        "issueNumber": 2,
-        "variantDescription": "",
-        "description": null,
-        "modified": "-0001-11-30T00:00:00-0500",
-        "isbn": "",
-        "upc": "",
-        "diamondCode": "",
-        "ean": "",
-        "issn": "",
-        "format": "Comic",
-        "pageCount": 36,
-        "textObjects": [],
-        "resourceURI": "http://gateway.marvel.com/v1/public/comics/21466",
-        "urls": [
-          {
-            "type": "detail",
-            "url": "http://marvel.com/comics/issue/21466/ultimate_spider-man_spanish_language_edition_2000_2?utm_campaign=apiRef&utm_source=e41eac565ab1f080af479de3722cf30f"
-          }
-        ],
-        "series": {
-          "resourceURI": "http://gateway.marvel.com/v1/public/series/5105",
-          "name": "Ultimate Spider-Man (Spanish Language Edition) (2000 - 2001)"
-        },
-        "variants": [],
-        "collections": [],
-        "collectedIssues": [],
-        "dates": [
-          {
-            "type": "onsaleDate",
-            "date": "2029-12-31T00:00:00-0500"
-          },
-          {
-            "type": "focDate",
-            "date": "-0001-11-30T00:00:00-0500"
-          }
-        ],
-        "prices": [
-          {
-            "type": "printPrice",
-            "price": 2.25
-          }
-        ],
-        "thumbnail": {
-          "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-          "extension": "jpg"
-        },
-        "images": [],
-        "creators": {
-          "available": 0,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/21466/creators",
-          "items": [],
-          "returned": 0
-        },
-        "characters": {
-          "available": 1,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/21466/characters",
-          "items": [
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011010",
-              "name": "Spider-Man (Ultimate)"
-            }
-          ],
-          "returned": 1
-        },
-        "stories": {
-          "available": 2,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/21466/stories",
-          "items": [
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/48960",
-              "name": "Cover #48960",
-              "type": "cover"
-            },
-            {
-              "resourceURI": "http://gateway.marvel.com/v1/public/stories/48961",
-              "name": "Interior #48961",
-              "type": "interiorStory"
-            }
-          ],
-          "returned": 2
-        },
-        "events": {
-          "available": 0,
-          "collectionURI": "http://gateway.marvel.com/v1/public/comics/21466/events",
+          "collectionURI": "http://gateway.marvel.com/v1/public/comics/50068/events",
           "items": [],
           "returned": 0
         }
@@ -1124,5 +1407,4 @@ const comics = {
     ]
   }
 }
-
-export default Comics;
+);
